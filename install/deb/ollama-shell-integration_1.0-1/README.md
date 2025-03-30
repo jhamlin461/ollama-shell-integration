@@ -16,6 +16,7 @@ AI-powered command suggestions for your terminal. Converts natural language to L
 - Ubuntu/Debian Linux
 - Python 3.6+
 - System-wide Ollama ([Install Guide](https://ollama.com))
+- llama3 ([llama3](https://ollama.com/library/llama3:8b))
 
 ### Install .deb Package
 ```bash
