@@ -6,7 +6,6 @@ AI-powered command suggestions for bash. Executes intelligent command suggestion
 
 - Converts natural language to Linux commands (`"list files"` → `ls`)
 - Handles common command mistakes automatically
-- Purple-highlighted suggestions before execution
 - Self-contained Python virtual environment
 - Supports Ubuntu/Debian systems
 
@@ -23,5 +22,5 @@ AI-powered command suggestions for bash. Executes intelligent command suggestion
 # Download the package
 wget https://github.com/jhamlin461/ollama-shell-integration/blob/main/ollama-shell-integration_1.0-1.deb
 
-# Install with dependencies
+# Install
 sudo apt install ./ollama-shell-integration_1.0-1.deb
