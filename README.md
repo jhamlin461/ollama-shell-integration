@@ -16,6 +16,7 @@ AI-powered command suggestions for bash. Executes intelligent command suggestion
 - Ubuntu/Debian Linux
 - Python 3.6+
 - Ollama installed system-wide ([Install Guide](https://ollama.com))
+- llama3 model installed ([llama3](https://ollama.com/library/llama3:8b))
 
 ### Method 1: Install from .deb
 ```bash
