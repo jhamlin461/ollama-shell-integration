@@ -1,0 +1,9 @@
+#!/bin/bash
+# Helper script to manually integrate with shell
+if ! grep -q "ollama-shell.sh" ~/.bashrc; then
+    echo -e "\n# Ollama Command Suggestion Integration" >> ~/.bashrc
+    echo "source /etc/profile.d/ollama-shell.sh" >> ~/.bashrc
+    echo "Integration added to ~/.bashrc"
+else
+    echo "Integration already exists in ~/.bashrc"
+fi

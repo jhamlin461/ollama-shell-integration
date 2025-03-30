@@ -1,0 +1,9 @@
+Package: ollama-shell-integration
+Version: 1.0-1
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Joshua Hamlin <jhamlin@jhamlin.tech>
+Depends: python3, python3-pip
+Description: AI-powered command suggestions for bash.
+ Executes intelligent command suggestions when entered commands aren't found.
